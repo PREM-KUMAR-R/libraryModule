@@ -1,0 +1,74 @@
+@charset "ISO-8859-1";
+
+
+body {
+	margin : 0;
+	padding : 0;
+	background-image: url(../books.jpg);
+	background-size : cover;
+	font-family : sans-serif;
+}
+
+.brand  {
+	color : white;
+	top : 20%;
+	box-sizing : border-box;
+	padding : 20px 30px;
+	font-size : 50px;
+	font-family : Impact, sans-serif;
+}
+.register-form {
+	background-color : white;
+	width : 320px;
+	height : 600px;
+	top : 20%;
+	left : 35%;
+	position : absolute;
+	box-sizing : border-box;
+	padding : 30px 30px;
+}
+
+.register-form h {
+	padding :50px;
+	font-size : 22px;
+	font-weight : bold;
+}	
+.register-form p{
+	font-weight :bold;
+	margin: 0;
+	padding:0;
+}
+
+.register-form input {
+	width :100%;
+	margin-bottom :15px;
+}
+
+.register-form input[type="submit"] {
+	border: none;
+	outline: none;
+	height: 40px;
+	background: brown;
+	color: white;
+	font-size:18px;
+	border-radius: 20px;
+	cursor : pointer;
+	
+}
+.register-form input[type="submit"]:hover {
+	background:green;
+	
+}
+
+
+a:link {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+}

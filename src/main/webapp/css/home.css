@@ -1,0 +1,57 @@
+@charset "ISO-8859-1";
+
+body{
+	margin : 0;
+	padding : 0;
+	background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)),url(../books.jpg);
+	background-size : cover;
+	font-family : sans-serif;
+}
+.head a{
+	font-size : 20px;
+	font-family : Impact, sans-serif;
+	color : white;
+	float : right;
+	padding : 20px 20px 0 0;
+}
+
+.head a:link {
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.head a:hover {
+  color: orange;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.brand  {
+	color : white;
+	top : 30px;
+	box-sizing : border-box;
+	padding : 20px 50px;
+	font-size : 50px;
+	font-family : Impact, sans-serif;
+	margin-bottom:50px;
+}
+
+.module a {
+	font-size : 20px;
+	font-family : Impact, sans-serif;
+	color : white;
+	padding : 20px 20px 0 0;
+	padding : 10px 100px;
+	
+}
+
+.module a:link {
+  background-color: transparent;
+  text-decoration: underline;;
+}
+
+.module a:hover {
+  color: orange;
+  background-color: transparent;
+  text-decoration: underline;
+}
